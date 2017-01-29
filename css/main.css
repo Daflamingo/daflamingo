@@ -1,0 +1,12 @@
+main {
+    /*Positie Container Header Element, ijkpunt Linksboven*/
+    position: absolute;
+    top: 120px;
+    left: 200px;
+
+    /*Grote van het het header element*/
+    width: calc(100% - 200px);
+    height: 100%;
+
+    /*Styling*/
+}

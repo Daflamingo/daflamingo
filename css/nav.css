@@ -1,0 +1,21 @@
+nav {
+    /*Positie Container Header Element, ijkpunt Linksboven*/
+    position: absolute;
+    top: 120px;
+    left: 0;
+
+    /*Grote van het het header element*/
+    width: 200px;
+    height: 100%;
+
+    /*Styling*/
+}
+
+nav a {
+    /*Positie, block zorgt ervoor dat de elementen onder elkaar komen*/
+    display: block;
+
+    /*Styling*/
+    text-align: center;
+    margin: 10px;
+}
