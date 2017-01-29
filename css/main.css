@@ -6,7 +6,6 @@ main {
 
     /*Grote van het het header element*/
     width: calc(100% - 200px);
-    height: 100%;
 
     /*Styling*/
     margin: 30px auto;
@@ -17,5 +16,6 @@ main {
     display: -webkit-flex;
     display: flex;
     /*align-items: center;*/
-    justify-content: center;    
+    justify-content: center;
+    flex-direction: column;    
 }
