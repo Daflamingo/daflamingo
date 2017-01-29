@@ -9,4 +9,13 @@ main {
     height: 100%;
 
     /*Styling*/
+    margin: 30px auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;    
 }
