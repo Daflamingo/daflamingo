@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
 body {
-    font-family: -apple-system,
+	/*Font*/
+    font-family: 'Karla',
+    -apple-system,
     ".SFNSText-Regular",
     "San Francisco",
     "Roboto",
@@ -7,4 +11,7 @@ body {
     "Helvetica Neue",
     "Lucida Grande",
     sans-serif;
+
+    /*Styling*/
+    background-color: #F8F8FF;
 }
