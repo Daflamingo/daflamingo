@@ -21,7 +21,7 @@ main {
     flex-direction: column;    
 }
 
-main .index {
+#index {
     /*Positie Container Header Element, ijkpunt Linksboven*/
     position: absolute;
     top: 140px;
