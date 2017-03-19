@@ -15,5 +15,30 @@ nav a {
     display: block;
 
     /*Styling*/
-    padding: 10px 0 10px 20px;
+    margin-left: 15px;
+    padding: 10px 10px 10px 5px;
+    text-decoration: none;
+    color:#333333;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+nav a:hover {
+ /* fallback */ 
+background-color: #98FFCC;
+
+ /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left top, right top, from(#F8F8FF), to(#98FFCC));
+  /* Safari 5.1, Chrome 10+ */
+   background: -webkit-linear-gradient(left, #98FFCC, #F8F8FF);
+    /* Firefox 3.6+ */
+     background: -moz-linear-gradient(left, #98FFCC, #F8F8FF);
+      /* IE 10 */ 
+      background: -ms-linear-gradient(left, #98FFCC, #F8F8FF);
+       /* Opera 11.10+ */
+        background: -o-linear-gradient(left, #98FFCC, #F8F8FF);
+
+                background: linear-gradient(left, #98FFCC, #F8F8FF);
 }

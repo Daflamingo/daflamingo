@@ -26,7 +26,7 @@ header {
     /*Positie about link Element, ijkpunt Linksboven*/
     position: absolute;
     top:115px;
-    right: 51px;
+    right: 70px;
 
     /*Grote van het het header element*/
     width: 70px;
@@ -35,6 +35,12 @@ header {
     /*Styling*/
     text-align: center;
     line-height: 30px;
+    text-decoration: none;
+    color:#333333;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
 
 #cv-link {
@@ -50,4 +56,45 @@ header {
     /*Styling*/
     text-align: center;
     line-height: 30px;
+    text-decoration: none;
+    color:#333333;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+#about-link:hover {
+    /* fallback */ 
+background-color: #ffcccc;
+
+ /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left top, right top, from(#F8F8FF), to(#ffcccc));
+  /* Safari 5.1, Chrome 10+ */
+   background: -webkit-linear-gradient(left, #ffcccc, #F8F8FF);
+    /* Firefox 3.6+ */
+     background: -moz-linear-gradient(left, #ffcccc, #F8F8FF);
+      /* IE 10 */ 
+      background: -ms-linear-gradient(left, #ffcccc, #F8F8FF);
+       /* Opera 11.10+ */
+        background: -o-linear-gradient(left, #ffcccc, #F8F8FF);
+
+                background: linear-gradient(left, #ffcccc, #F8F8FF);
+}
+#cv-link:hover {
+    /* fallback */ 
+background-color: #ffcccc;
+
+ /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left top, right top, from(#F8F8FF), to(#ffcccc));
+  /* Safari 5.1, Chrome 10+ */
+   background: -webkit-linear-gradient(left, #ffcccc, #F8F8FF);
+    /* Firefox 3.6+ */
+     background: -moz-linear-gradient(left, #ffcccc, #F8F8FF);
+      /* IE 10 */ 
+      background: -ms-linear-gradient(left, #ffcccc, #F8F8FF);
+       /* Opera 11.10+ */
+        background: -o-linear-gradient(left, #ffcccc, #F8F8FF);
+
+                background: linear-gradient(left, #ffcccc, #F8F8FF);
 }
