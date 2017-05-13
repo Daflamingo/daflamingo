@@ -1,7 +1,6 @@
 main {
     /*Positie Container Header Element, ijkpunt Linksboven*/
-    position: absolute;
-    top: 140px;
+    position: relative;
     left: 0;
 
     /*Grote van het het header element*/
@@ -18,7 +17,9 @@ main {
     display: flex;
     /*align-items: center;*/
     justify-content: center;
-    flex-direction: column;    
+    flex-direction: column;
+
+    max-width: 1024px;    
 }
 
 #index {
