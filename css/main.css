@@ -32,6 +32,10 @@ main {
     width: calc(100% - 200px);
 }
 
+.hidden {
+    display: none;
+}
+
 h1 {
     margin-bottom: 14px;
 }
