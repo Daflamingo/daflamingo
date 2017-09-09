@@ -53,7 +53,7 @@ iframe {
 }
 
 @media all and (max-width: 600px){
-    main {
+    main#index {
         display: none;
     }
 }
