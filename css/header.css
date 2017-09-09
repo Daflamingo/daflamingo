@@ -26,7 +26,8 @@ header {
     /*Positie about link Element, ijkpunt Linksboven*/
     position: absolute;
     top:115px;
-    right: 30px;
+    right: 20px;
+    padding: 0 120px 0 20px;
 
     /*Grote van het het header element*/
     width: 70px;
@@ -45,18 +46,23 @@ header {
 
 #about-link:hover {
     /* fallback */ 
-background-color: #ffcccc;
+    background-color: #ffcccc;
 
- /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, left top, right top, from(#F8F8FF), to(#ffcccc));
-  /* Safari 5.1, Chrome 10+ */
-   background: -webkit-linear-gradient(left, #ffcccc, #F8F8FF);
+     /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, left top, right top, from(#F8F8FF), to(#ffcccc));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(left, #ffcccc, #F8F8FF);
     /* Firefox 3.6+ */
-     background: -moz-linear-gradient(left, #ffcccc, #F8F8FF);
-      /* IE 10 */ 
-      background: -ms-linear-gradient(left, #ffcccc, #F8F8FF);
-       /* Opera 11.10+ */
-        background: -o-linear-gradient(left, #ffcccc, #F8F8FF);
+    background: -moz-linear-gradient(left, #ffcccc, #F8F8FF);
+    /* IE 10 */ 
+    background: -ms-linear-gradient(left, #ffcccc, #F8F8FF);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(left, #ffcccc, #F8F8FF);
+    background: linear-gradient(left, #ffcccc, #F8F8FF);
+}
 
-                background: linear-gradient(left, #ffcccc, #F8F8FF);
+@media all and (max-width: 600px){
+    #about-link {
+        display: none;
+    }
 }
