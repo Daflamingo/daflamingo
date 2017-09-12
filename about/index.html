@@ -18,6 +18,25 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/h1-6.css">
+    <style type="text/css">
+        /*TODO: finalizing protoype*/
+        #finger {
+            max-width: 800px;
+            width: 80%;
+        }
+
+        main {
+            margin: 0 auto;
+        }
+
+        #instagram {
+            width: 150px;
+            position: absolute;
+            right: 0;
+            transform: rotateZ(30deg);
+        }
+
+    </style>
 </head>
 <body>
 <header>
@@ -26,7 +45,8 @@
     </a>
     <a id="about-link" href="about">About/Contact</a>
 </header>
-<img src="/about/vinger.gif">  
+<br>
+<img id="finger" src="/about/vinger.gif">  
 <main>
     <h1 style='margin-bottom:20px'>About</h1>
     <pre style="text-align: left; margin: 0 auto;font-size: 16px">
@@ -36,7 +56,7 @@
             Studied ———————————> Audiovisual @ Gerrit Rietveld Academy
             Mail ——————————————> Yasmina@protonmail.com
     </pre>
-    <a target="_blank" href="https://www.instagram.com/da_flamingo/" rel="noreferrer noopener">
+    <a id="instagram" target="_blank" href="https://www.instagram.com/da_flamingo/" rel="noreferrer noopener">
         <img width="150" src="/about/instagram-daflamingo.gif" alt="Instagram Link to Da Flamingo">
     </a>
     <iframe src="https://www.daflamingo.com/mail"></iframe>
