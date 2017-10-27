@@ -14,12 +14,12 @@ header {
 #website-logo {
     /*Positie about link Element, ijkpunt Linksboven*/
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 13px;
+    left: 15px;
 
     /*Grote van het het header element*/
-    /*width: 70px;*/
-    /*height: 30px;*/
+    width: 240px;
+    height: 150px;
 }
 
 #about-link {
@@ -62,6 +62,10 @@ header {
 }
 
 @media all and (max-width: 600px){
+    #website-logo { 
+        left: calc(50% - 120px);
+    }
+
     #about-link {
         display: none;
     }
