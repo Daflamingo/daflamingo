@@ -55,7 +55,7 @@ background-color: #98FFCC;
         text-align: center;
     }
 
-    #nav-about-link, hr {
+    #nav-about-link, #nav-cv-link, hr {
       display: block;
     }
 }
