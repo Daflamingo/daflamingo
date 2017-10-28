@@ -36,6 +36,60 @@
             transform: rotateZ(30deg);
         }
 
+        #santo-blanco {
+            width: 150px;
+            position: absolute;
+            left:300px;
+            top: 280px;
+        }
+
+        #vimeo-button {
+            width: 150px;
+            position: absolute;
+            left: 600px;
+            top: 250px;
+        }
+
+        #mail-list {
+            position:absolute;
+            top:330px;
+            left: 20px;
+            width:320px
+        }
+
+        #about-foto {
+            position:absolute;
+            top:10px;
+            left:-10px;
+            width: 250px;
+        }
+
+        #mob-text {
+            display: none;
+        }           
+
+        @media all and (max-width: 900px) {
+            #mail-list, #about-foto, #instagram, #santo-blanco, #vimeo-button {
+                position: relative;
+                top: 0;
+                left: 0;
+                margin: 10px auto;
+            }
+
+            pre {
+                display: none;
+            }
+
+            #mob-text {
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            #mail-list {
+                left: -10px;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -48,19 +102,38 @@
 <br>
 <img id="finger" src="/about/vinger.gif">  
 <main>
-    <img width="250" style="position:absolute;top:10px;left:-10px" src="/about/foto website.jpg">
+    <img id="about-foto" src="/about/foto website.jpg">
     <h1 style='margin-bottom:20px'>About</h1>
     <pre style="text-align: left; margin: 0 auto;font-size: 16px">
             Daily life name ———> Yasmina Ghalmi Mews
             Artist name ———————> Yasmina Da Flamingo
             Based in ——————————> Amsterdam, The Netherlands
             Studied ———————————> Audiovisual @ Gerrit Rietveld Academy
-            Mail ——————————————> Yasmina@protonmail.com
+            Mail ——————————————> <a href="mailto:yasmina@protonmail.com">>Yasmina@protonmail.com</a>
     </pre>
-    <a style="position:absolute" id="instagram" target="_blank" href="https://www.instagram.com/da_flamingo/" rel="noreferrer noopener">
+    <p id="mob-text">
+            Daily life name: Yasmina Ghalmi Mews
+            <br>
+            Artist name: Yasmina Da Flamingo
+            <br>
+            Based in: Amsterdam, The Netherlands
+            <br>
+            Studied: Audiovisual @ Gerrit Rietveld Academy
+            <br>
+            Mail: <a href="mailto:yasmina@protonmail.com">Yasmina@protonmail.com</a>
+            <br>
+    </p>
+    <br>
+    <a id="instagram" target="_blank" href="https://www.instagram.com/da_flamingo/" rel="noreferrer noopener">
         <img width="150" src="/about/instagram-daflamingo.gif" alt="Instagram Link to Da Flamingo">
     </a>
-    <iframe style="position:absolute;top:160px;left: calc(100% - 390px);width:320px" src="https://www.daflamingo.com/mail"></iframe>
+     <a id="santo-blanco" target="_blank" href="https://santoblanco.bandcamp.com/releases" rel="noreferrer noopener">
+        <img width="150" src="/about/santo-blanco.jpg" alt="Santo Blanco Bancdamp">
+    </a>
+    <a id="vimeo-button" target="_blank" href="https://vimeo.com/daflamingo" rel="noreferrer noopener">
+        <img width="150" src="/about/vimeo-button.png" alt="Vimeo Link to the Flamingo">
+    </a>
+    <iframe id="mail-list" src="https://www.daflamingo.com/mail"></iframe>
 </main>
 </body>
 </html>
