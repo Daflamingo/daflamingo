@@ -45,7 +45,7 @@ background-color: #98FFCC;
 
 
 
-#nav-about-link, hr {
+#nav-about-link, #nav-cv-link, hr {
   display: none;
 }
 
